@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+.wrapper {
+	max-width: 96%;
+	background-color: yellow;
+	height: 1000px;
+}
+
+header h1 {
+	font-size: 55px;
+	height: 55px;
+	}
+
+
+.photo_blurb_wrapper{
+	height: 300px;
+	margin-top: 50px;
+	}
+	
+.home_photo {
+	height: 348px;
+	}

@@ -1,0 +1,181 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.wrapper {
+	background-color: blue;
+	}
+
+header {
+	height: 40px;
+	}
+
+
+header h1 {
+	display: inline-block;
+	font-size: 29px;
+	height: 40px;
+	line-height: 40px;
+	width: 60%;
+	text-align: center;
+	overflow: none;
+	margin: 3.6% 2%;
+	}
+	
+.header_nav,
+.footer_nav {
+	width: 0;
+	display: none;
+	overflow: none;
+	height: 160px;
+	position: absolute;
+	z-index: 10;
+	}
+
+.menu_reveal{
+	width: 100%;
+	margin: 0;
+	display: block;
+	top: 60px;
+	}
+	
+
+.header_nav ul,
+.footer_nav ul {
+	display: block;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	}
+
+.header_nav ul li,
+.footer_nav ul li{
+	display: block;
+	width: 100%;
+	height: 40px;
+	margin: 0;
+   	box-shadow: none;
+	}
+	
+.header_nav ul li {	
+	-moz-transform:rotate(0deg);
+	-webkit-transform:rotate(0deg);
+	transform:rotate(0deg);
+}
+
+.header_nav ul li:nth-child(even){
+	-moz-transform:rotate(0deg);
+	-webkit-transform:rotate(0deg);
+	transform:rotate(0deg);
+	}
+
+.header_nav ul li a,
+.footer_nav ul li a {
+	line-height: 40px;
+	}
+	
+.menu_btn,
+.search_btn {
+	display: inline-block;
+	width: 14%;
+	}
+
+.photo_blurb_wrapper {
+	margin-top: 20px;
+	height: auto;
+	
+	}
+
+/*main styles*/
+
+main {
+	height: auto;
+	}
+
+main p {
+	padding-top: 20px;	
+	line-height: 1.4;
+	}
+	
+.photo_blurb_wrapper{
+	height: 660px;
+	}
+	
+.home_photo {
+	height: 250px;
+	width: 92%;
+	margin: 0 4%;
+	display: block;
+	top: 10px;
+	left: 0;
+	border: none;
+	}
+	
+.home_blurb {
+	display: block;
+	width: 96%;
+	height: auto;
+	float: right;
+	color: white;
+	margin: 20px 2% 0 2%;
+	}
+
+.buy_music_btn,
+.book_show_btn {
+	display: none;
+	overflow: hidden;
+	}
+
+/*end of main styles*/
+
+
+/* Music Page */
+#audioarea {
+	display: block;
+	max-width:100%;
+	margin-left:0px;
+
+}	
+.audio_player {
+	text-align:center;
+}
+
+.audio_player p {
+	font-size:1em;
+}
+
+.songs {
+	display:block;
+	width:100%;
+	position: relative;
+    font-family: '1942report1942report';
+	float:left;
+	margin-top: 12px;
+	margin-left: 0px;
+	font-size:1.1em;
+}
+
+
+
+#now_playing {
+	margin-bottom:12px;
+	margin-left:0px;
+}
+
+footer h1 {
+	display: inline-block;
+	font-size: 29px;
+	height: 40px;
+	line-height: 40px;
+	width: 60%;
+	text-align: center;
+	overflow: none;
+	margin: 3.6% 2%;
+	color: white;
+	}
+
+.footer_menu_reveal{
+	width: 96%;
+	display: block;
+	bottom: 80px;
+	}

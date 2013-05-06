@@ -1,0 +1,154 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.wrapper {
+	background-color: red;
+	height: 800px;
+	}
+	
+header {
+	height: 113px;
+	}
+
+header h1 {
+	font-size: 40px;
+	height: 40px;
+	}
+	
+.photo_blurb_wrapper{
+	width: 100%;
+	height: 500px;
+	margin-top: 0;
+	}
+	
+.home_photo {
+	width: 92%;
+	height: 200px;
+	display: block;
+	left: 0;
+	top: 10px;
+	margin: 10px 4% 10px 4%;
+	}
+
+.home_blurb {
+	display: block;
+	width: 94%;
+	height: auto;
+	margin: 4% 4% 0 4%;
+	}
+
+.home_blurb h2 {
+	margin: 0 4%;
+	}
+
+main p {
+	padding-top: 10px;
+	margin: 0 4%;
+	}
+
+.home_blurb a {
+	text-align: center;
+	
+	}
+	
+.buy_music_btn, .book_show_btn {
+	margin: 6% 6.5%;
+	}
+	
+/* Music Page */
+
+
+.title{
+	position:relative;
+	width:100%;
+}
+
+.title h1{
+	text-align:right;
+	font-size:1.5em;
+	margin-bottom:17px;
+}
+
+.title .secondary_cover_art{
+	display: block;
+	max-width: 33.33%;
+	position:relative;
+	
+}
+
+.title .secondary_cover_art img{
+	max-width: 100%;
+	height:auto;
+	float:left;
+}
+
+
+.cover_art {
+	display:none;
+}
+
+
+
+
+
+.songs {
+	display:block;
+	width:100%;
+	position: relative;
+    font-family: '1942report1942report';
+	float:left;
+	margin-top: 12px;
+	margin-left: 0px;
+	font-size:1.1em;
+}
+
+
+.songs table {
+	font-size: 1em;
+	width: 100%;
+}
+
+.songs tr td:first-of-type {
+	margin-right:0px;
+}
+
+.songs tr td:nth-of-type(2) {
+	display:none;
+}
+
+.songs tr td:nth-of-type(3) {
+	width:33%;
+}
+.songs tr {
+	margin-bottom: 8px;
+}
+
+.songs td{
+	width: 50%;
+}
+
+
+.buy_album {
+	width: 50%;
+	height: 40px;
+}
+
+.iframes {
+	float:none;
+	margin-bottom:40px;
+	width: 100%;
+	padding: 5% 0px;
+}
+
+.top_link {
+	display:block;
+	width: 60px;
+	height: 30px;
+	line-height:30px;
+	color:#FFFFFF;
+	font-size:1.3em;
+	text-decoration:none;
+	background-color:#666666;
+	text-align:center;
+}

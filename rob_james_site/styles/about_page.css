@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* ---- About Page ----*/
+
+.about-img {
+	width: 100%;
+	}
+
+.about_blurb {}
+	
+.show-hide:hover {
+	color: red;
+	}
+
+.show-bio {
+	}
+
+.about_blurb {
+	float: none;
+	position: relative;
+	right: -30px;
+	top: -55px;
+	padding-bottom: 200px;
+	}
+	
+
+
+.about_blurb a {
+	font-family: 'BoycottRegular';
+	font-size: 18px;
+	color: white;
+	text-decoration: none;
+	}
+	
+

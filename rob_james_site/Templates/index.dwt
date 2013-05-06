@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Music legend Rob James</title>
+<!-- TemplateEndEditable -->
+<meta name=”viewport” content=“width=device-width, initial-scale=1”>
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="../styles/styles.css">
+<!-- Desktop -->
+<link href="../styles/desktop.css" rel="stylesheet" type="text/css" media="only screen and (max-width:960px)">
+<!-- Tablet -->
+<link href="../styles/tablet.css" rel="stylesheet" type= "text/css" media="only screen and (max-width:768px)">
+<!-- Phone landscape-->
+<link href="../styles/phone_landscape.css" rel="stylesheet" type= "text/css" media="only screen and (max-width:480px)">
+<!-- Phone -->
+<link href="../styles/phone.css" rel="stylesheet" type= "text/css" media="only screen and (max-width:320px)">
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+
+
+<body>
+    <header>
+    <div class="header_wrapper">
+        <div class="headline">
+        <div class="menu_btn"><img src="../images/hamburger.svg"></div>
+        <h1>Rob James</h1>
+        <div class="search_btn"><img src="../images/loop.png"></div>
+      </div>
+      <nav class="header_nav">
+      <ul>
+      	<li><a href="index.html">Home</a></li>
+        <li><a href="music.html">Music</a></li>
+        <li><a href="shows.html">Shows</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      </nav><!--end of header_nav-->
+    </div><!--end of header_wrapper-->
+    </header>
+    <main>      
+    <div class="main_wrapper">
+	<!-- TemplateBeginEditable name="rob_james_main" -->
+
+      <div class="photo_blurb_wrapper"><!-- end of home_photo-->
+        <div class="home_photo">
+          <h2>Singing photo</h2>
+        </div>
+        <div class= "home_blurb">
+          <h2>Recording artist and band leader</h2>
+          <p>Rob James is one of Western Canada's premier solo recording artists. He has an extensive background in recording and live performances of both original and cover tunes. His styles range from rock and country to love ballads. His CD's are all self-produced and he...</p>
+          <a href="#">More</a> </div>
+        <!--end of home_blurb-->
+      </div>
+      <!--end of photo_blurb_wrapper-->
+      <div class="buy_music_btn"> <a href="music.html">Buy music </a> </div>
+      <!--end of buy_music_btn-->
+      <div class="book_show_btn"> <a href="contact.html">Book a show </a> </div>
+      <!--end of book_show_btn-->
+    </div><!--end of main_wrapper-->
+    <!-- TemplateEndEditable --></main>
+    <footer>
+    <div class="footer_wrapper">
+      <nav class="footer_nav">
+        <ul>
+      	<li><a href="index.html">Home</a></li>
+        <li><a href="music.html">Music</a></li>
+        <li><a href="shows.html">Shows</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav><!--end of footer_nav-->
+      <div class="headline">
+        <div class="menu_btn"><img src="../images/hamburger.svg"></div>
+        <h1>Rob James</h1>
+        <div class="search_btn"><img src="../images/loop.png"></div>
+      </div><!--end of footer_wrapper-->
+    </footer>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="../scripts/animations.js"></script>
+
+</body>
+</html>
